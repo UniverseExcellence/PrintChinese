@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24A25B9D24A82CAC004DA9BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A25B9C24A82CAC004DA9BB /* AppDelegate.m */; };
+		24A25BA024A82CAC004DA9BB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A25B9F24A82CAC004DA9BB /* SceneDelegate.m */; };
+		24A25BA324A82CAC004DA9BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A25BA224A82CAC004DA9BB /* ViewController.m */; };
+		24A25BA624A82CAC004DA9BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24A25BA424A82CAC004DA9BB /* Main.storyboard */; };
+		24A25BA824A82CB0004DA9BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24A25BA724A82CB0004DA9BB /* Assets.xcassets */; };
+		24A25BAB24A82CB0004DA9BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24A25BA924A82CB0004DA9BB /* LaunchScreen.storyboard */; };
+		24A25BAE24A82CB0004DA9BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A25BAD24A82CB0004DA9BB /* main.m */; };
+		24A25BB824A82CB0004DA9BB /* CEPrintChineseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A25BB724A82CB0004DA9BB /* CEPrintChineseTests.m */; };
+		24A25BC324A82CB0004DA9BB /* CEPrintChineseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A25BC224A82CB0004DA9BB /* CEPrintChineseUITests.m */; };
+		24A25BD524A82E24004DA9BB /* NSDictionary+CEExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A25BD124A82E24004DA9BB /* NSDictionary+CEExtension.m */; };
+		24A25BD624A82E24004DA9BB /* NSArray+CEExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A25BD324A82E24004DA9BB /* NSArray+CEExtension.m */; };
+		24A25BF624A82E5C004DA9BB /* CETimePickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A25BD824A82E5C004DA9BB /* CETimePickView.m */; };
+		24A25BF724A82E5C004DA9BB /* UIView+CETimeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A25BDB24A82E5C004DA9BB /* UIView+CETimeCategory.m */; };
+		24A25BF824A82E5C004DA9BB /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A25BDE24A82E5C004DA9BB /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		24A25BF924A82E5C004DA9BB /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A25BE724A82E5C004DA9BB /* ViewController+MASAdditions.m */; };
+		24A25BFA24A82E5C004DA9BB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A25BEB24A82E5C004DA9BB /* MASCompositeConstraint.m */; };
+		24A25BFB24A82E5C004DA9BB /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A25BEC24A82E5C004DA9BB /* MASConstraintMaker.m */; };
+		24A25BFC24A82E5C004DA9BB /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A25BED24A82E5C004DA9BB /* MASLayoutConstraint.m */; };
+		24A25BFD24A82E5C004DA9BB /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A25BEE24A82E5C004DA9BB /* NSArray+MASAdditions.m */; };
+		24A25BFE24A82E5C004DA9BB /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A25BEF24A82E5C004DA9BB /* View+MASAdditions.m */; };
+		24A25BFF24A82E5C004DA9BB /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A25BF224A82E5C004DA9BB /* MASConstraint.m */; };
+		24A25C0024A82E5C004DA9BB /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A25BF424A82E5C004DA9BB /* MASViewConstraint.m */; };
+		24A25C0124A82E5C004DA9BB /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A25BF524A82E5C004DA9BB /* MASViewAttribute.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24A25BB424A82CB0004DA9BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24A25B9024A82CAC004DA9BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24A25B9724A82CAC004DA9BB;
+			remoteInfo = CEPrintChinese;
+		};
+		24A25BBF24A82CB0004DA9BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24A25B9024A82CAC004DA9BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24A25B9724A82CAC004DA9BB;
+			remoteInfo = CEPrintChinese;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24A25B9824A82CAC004DA9BB /* CEPrintChinese.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CEPrintChinese.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24A25B9B24A82CAC004DA9BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24A25B9C24A82CAC004DA9BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24A25B9E24A82CAC004DA9BB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		24A25B9F24A82CAC004DA9BB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		24A25BA124A82CAC004DA9BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		24A25BA224A82CAC004DA9BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		24A25BA524A82CAC004DA9BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24A25BA724A82CB0004DA9BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24A25BAA24A82CB0004DA9BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24A25BAC24A82CB0004DA9BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24A25BAD24A82CB0004DA9BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24A25BB324A82CB0004DA9BB /* CEPrintChineseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CEPrintChineseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24A25BB724A82CB0004DA9BB /* CEPrintChineseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CEPrintChineseTests.m; sourceTree = "<group>"; };
+		24A25BB924A82CB0004DA9BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24A25BBE24A82CB0004DA9BB /* CEPrintChineseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CEPrintChineseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24A25BC224A82CB0004DA9BB /* CEPrintChineseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CEPrintChineseUITests.m; sourceTree = "<group>"; };
+		24A25BC424A82CB0004DA9BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24A25BD124A82E24004DA9BB /* NSDictionary+CEExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CEExtension.m"; sourceTree = "<group>"; };
+		24A25BD224A82E24004DA9BB /* NSArray+CEExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CEExtension.h"; sourceTree = "<group>"; };
+		24A25BD324A82E24004DA9BB /* NSArray+CEExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CEExtension.m"; sourceTree = "<group>"; };
+		24A25BD424A82E24004DA9BB /* NSDictionary+CEExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CEExtension.h"; sourceTree = "<group>"; };
+		24A25BD824A82E5C004DA9BB /* CETimePickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CETimePickView.m; sourceTree = "<group>"; };
+		24A25BD924A82E5C004DA9BB /* UIView+CETimeCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CETimeCategory.h"; sourceTree = "<group>"; };
+		24A25BDA24A82E5C004DA9BB /* CETimePickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CETimePickView.h; sourceTree = "<group>"; };
+		24A25BDB24A82E5C004DA9BB /* UIView+CETimeCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CETimeCategory.m"; sourceTree = "<group>"; };
+		24A25BDD24A82E5C004DA9BB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		24A25BDE24A82E5C004DA9BB /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		24A25BDF24A82E5C004DA9BB /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		24A25BE024A82E5C004DA9BB /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		24A25BE124A82E5C004DA9BB /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		24A25BE224A82E5C004DA9BB /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		24A25BE324A82E5C004DA9BB /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		24A25BE424A82E5C004DA9BB /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		24A25BE524A82E5C004DA9BB /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		24A25BE624A82E5C004DA9BB /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		24A25BE724A82E5C004DA9BB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		24A25BE824A82E5C004DA9BB /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		24A25BE924A82E5C004DA9BB /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		24A25BEA24A82E5C004DA9BB /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		24A25BEB24A82E5C004DA9BB /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		24A25BEC24A82E5C004DA9BB /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		24A25BED24A82E5C004DA9BB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		24A25BEE24A82E5C004DA9BB /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		24A25BEF24A82E5C004DA9BB /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		24A25BF024A82E5C004DA9BB /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		24A25BF124A82E5C004DA9BB /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		24A25BF224A82E5C004DA9BB /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		24A25BF324A82E5C004DA9BB /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		24A25BF424A82E5C004DA9BB /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		24A25BF524A82E5C004DA9BB /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24A25B9524A82CAC004DA9BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24A25BB024A82CB0004DA9BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24A25BBB24A82CB0004DA9BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24A25B8F24A82CAC004DA9BB = {
+			isa = PBXGroup;
+			children = (
+				24A25B9A24A82CAC004DA9BB /* CEPrintChinese */,
+				24A25BB624A82CB0004DA9BB /* CEPrintChineseTests */,
+				24A25BC124A82CB0004DA9BB /* CEPrintChineseUITests */,
+				24A25B9924A82CAC004DA9BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24A25B9924A82CAC004DA9BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24A25B9824A82CAC004DA9BB /* CEPrintChinese.app */,
+				24A25BB324A82CB0004DA9BB /* CEPrintChineseTests.xctest */,
+				24A25BBE24A82CB0004DA9BB /* CEPrintChineseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24A25B9A24A82CAC004DA9BB /* CEPrintChinese */ = {
+			isa = PBXGroup;
+			children = (
+				24A25BD024A82E02004DA9BB /* PrintChinese */,
+				24A25BDC24A82E5C004DA9BB /* Masonry */,
+				24A25BD724A82E5C004DA9BB /* CETimePickView */,
+				24A25B9B24A82CAC004DA9BB /* AppDelegate.h */,
+				24A25B9C24A82CAC004DA9BB /* AppDelegate.m */,
+				24A25B9E24A82CAC004DA9BB /* SceneDelegate.h */,
+				24A25B9F24A82CAC004DA9BB /* SceneDelegate.m */,
+				24A25BA124A82CAC004DA9BB /* ViewController.h */,
+				24A25BA224A82CAC004DA9BB /* ViewController.m */,
+				24A25BA424A82CAC004DA9BB /* Main.storyboard */,
+				24A25BA724A82CB0004DA9BB /* Assets.xcassets */,
+				24A25BA924A82CB0004DA9BB /* LaunchScreen.storyboard */,
+				24A25BAC24A82CB0004DA9BB /* Info.plist */,
+				24A25BAD24A82CB0004DA9BB /* main.m */,
+			);
+			path = CEPrintChinese;
+			sourceTree = "<group>";
+		};
+		24A25BB624A82CB0004DA9BB /* CEPrintChineseTests */ = {
+			isa = PBXGroup;
+			children = (
+				24A25BB724A82CB0004DA9BB /* CEPrintChineseTests.m */,
+				24A25BB924A82CB0004DA9BB /* Info.plist */,
+			);
+			path = CEPrintChineseTests;
+			sourceTree = "<group>";
+		};
+		24A25BC124A82CB0004DA9BB /* CEPrintChineseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24A25BC224A82CB0004DA9BB /* CEPrintChineseUITests.m */,
+				24A25BC424A82CB0004DA9BB /* Info.plist */,
+			);
+			path = CEPrintChineseUITests;
+			sourceTree = "<group>";
+		};
+		24A25BD024A82E02004DA9BB /* PrintChinese */ = {
+			isa = PBXGroup;
+			children = (
+				24A25BD224A82E24004DA9BB /* NSArray+CEExtension.h */,
+				24A25BD324A82E24004DA9BB /* NSArray+CEExtension.m */,
+				24A25BD424A82E24004DA9BB /* NSDictionary+CEExtension.h */,
+				24A25BD124A82E24004DA9BB /* NSDictionary+CEExtension.m */,
+			);
+			path = PrintChinese;
+			sourceTree = "<group>";
+		};
+		24A25BD724A82E5C004DA9BB /* CETimePickView */ = {
+			isa = PBXGroup;
+			children = (
+				24A25BD824A82E5C004DA9BB /* CETimePickView.m */,
+				24A25BD924A82E5C004DA9BB /* UIView+CETimeCategory.h */,
+				24A25BDA24A82E5C004DA9BB /* CETimePickView.h */,
+				24A25BDB24A82E5C004DA9BB /* UIView+CETimeCategory.m */,
+			);
+			path = CETimePickView;
+			sourceTree = "<group>";
+		};
+		24A25BDC24A82E5C004DA9BB /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				24A25BDD24A82E5C004DA9BB /* MASCompositeConstraint.h */,
+				24A25BDE24A82E5C004DA9BB /* NSLayoutConstraint+MASDebugAdditions.m */,
+				24A25BDF24A82E5C004DA9BB /* MASConstraint+Private.h */,
+				24A25BE024A82E5C004DA9BB /* MASLayoutConstraint.h */,
+				24A25BE124A82E5C004DA9BB /* NSArray+MASShorthandAdditions.h */,
+				24A25BE224A82E5C004DA9BB /* MASConstraintMaker.h */,
+				24A25BE324A82E5C004DA9BB /* View+MASAdditions.h */,
+				24A25BE424A82E5C004DA9BB /* NSArray+MASAdditions.h */,
+				24A25BE524A82E5C004DA9BB /* MASUtilities.h */,
+				24A25BE624A82E5C004DA9BB /* MASViewAttribute.h */,
+				24A25BE724A82E5C004DA9BB /* ViewController+MASAdditions.m */,
+				24A25BE824A82E5C004DA9BB /* MASViewConstraint.h */,
+				24A25BE924A82E5C004DA9BB /* MASConstraint.h */,
+				24A25BEA24A82E5C004DA9BB /* NSLayoutConstraint+MASDebugAdditions.h */,
+				24A25BEB24A82E5C004DA9BB /* MASCompositeConstraint.m */,
+				24A25BEC24A82E5C004DA9BB /* MASConstraintMaker.m */,
+				24A25BED24A82E5C004DA9BB /* MASLayoutConstraint.m */,
+				24A25BEE24A82E5C004DA9BB /* NSArray+MASAdditions.m */,
+				24A25BEF24A82E5C004DA9BB /* View+MASAdditions.m */,
+				24A25BF024A82E5C004DA9BB /* View+MASShorthandAdditions.h */,
+				24A25BF124A82E5C004DA9BB /* Masonry.h */,
+				24A25BF224A82E5C004DA9BB /* MASConstraint.m */,
+				24A25BF324A82E5C004DA9BB /* ViewController+MASAdditions.h */,
+				24A25BF424A82E5C004DA9BB /* MASViewConstraint.m */,
+				24A25BF524A82E5C004DA9BB /* MASViewAttribute.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24A25B9724A82CAC004DA9BB /* CEPrintChinese */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24A25BC724A82CB0004DA9BB /* Build configuration list for PBXNativeTarget "CEPrintChinese" */;
+			buildPhases = (
+				24A25B9424A82CAC004DA9BB /* Sources */,
+				24A25B9524A82CAC004DA9BB /* Frameworks */,
+				24A25B9624A82CAC004DA9BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CEPrintChinese;
+			productName = CEPrintChinese;
+			productReference = 24A25B9824A82CAC004DA9BB /* CEPrintChinese.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24A25BB224A82CB0004DA9BB /* CEPrintChineseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24A25BCA24A82CB0004DA9BB /* Build configuration list for PBXNativeTarget "CEPrintChineseTests" */;
+			buildPhases = (
+				24A25BAF24A82CB0004DA9BB /* Sources */,
+				24A25BB024A82CB0004DA9BB /* Frameworks */,
+				24A25BB124A82CB0004DA9BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24A25BB524A82CB0004DA9BB /* PBXTargetDependency */,
+			);
+			name = CEPrintChineseTests;
+			productName = CEPrintChineseTests;
+			productReference = 24A25BB324A82CB0004DA9BB /* CEPrintChineseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24A25BBD24A82CB0004DA9BB /* CEPrintChineseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24A25BCD24A82CB0004DA9BB /* Build configuration list for PBXNativeTarget "CEPrintChineseUITests" */;
+			buildPhases = (
+				24A25BBA24A82CB0004DA9BB /* Sources */,
+				24A25BBB24A82CB0004DA9BB /* Frameworks */,
+				24A25BBC24A82CB0004DA9BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24A25BC024A82CB0004DA9BB /* PBXTargetDependency */,
+			);
+			name = CEPrintChineseUITests;
+			productName = CEPrintChineseUITests;
+			productReference = 24A25BBE24A82CB0004DA9BB /* CEPrintChineseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24A25B9024A82CAC004DA9BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = zhouzhongliang;
+				TargetAttributes = {
+					24A25B9724A82CAC004DA9BB = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					24A25BB224A82CB0004DA9BB = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 24A25B9724A82CAC004DA9BB;
+					};
+					24A25BBD24A82CB0004DA9BB = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 24A25B9724A82CAC004DA9BB;
+					};
+				};
+			};
+			buildConfigurationList = 24A25B9324A82CAC004DA9BB /* Build configuration list for PBXProject "CEPrintChinese" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24A25B8F24A82CAC004DA9BB;
+			productRefGroup = 24A25B9924A82CAC004DA9BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24A25B9724A82CAC004DA9BB /* CEPrintChinese */,
+				24A25BB224A82CB0004DA9BB /* CEPrintChineseTests */,
+				24A25BBD24A82CB0004DA9BB /* CEPrintChineseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24A25B9624A82CAC004DA9BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A25BAB24A82CB0004DA9BB /* LaunchScreen.storyboard in Resources */,
+				24A25BA824A82CB0004DA9BB /* Assets.xcassets in Resources */,
+				24A25BA624A82CAC004DA9BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24A25BB124A82CB0004DA9BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24A25BBC24A82CB0004DA9BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24A25B9424A82CAC004DA9BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A25BFF24A82E5C004DA9BB /* MASConstraint.m in Sources */,
+				24A25BFD24A82E5C004DA9BB /* NSArray+MASAdditions.m in Sources */,
+				24A25BD624A82E24004DA9BB /* NSArray+CEExtension.m in Sources */,
+				24A25BF624A82E5C004DA9BB /* CETimePickView.m in Sources */,
+				24A25BF824A82E5C004DA9BB /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				24A25C0124A82E5C004DA9BB /* MASViewAttribute.m in Sources */,
+				24A25BA324A82CAC004DA9BB /* ViewController.m in Sources */,
+				24A25C0024A82E5C004DA9BB /* MASViewConstraint.m in Sources */,
+				24A25BF724A82E5C004DA9BB /* UIView+CETimeCategory.m in Sources */,
+				24A25BFB24A82E5C004DA9BB /* MASConstraintMaker.m in Sources */,
+				24A25BFC24A82E5C004DA9BB /* MASLayoutConstraint.m in Sources */,
+				24A25BFE24A82E5C004DA9BB /* View+MASAdditions.m in Sources */,
+				24A25BFA24A82E5C004DA9BB /* MASCompositeConstraint.m in Sources */,
+				24A25BD524A82E24004DA9BB /* NSDictionary+CEExtension.m in Sources */,
+				24A25BF924A82E5C004DA9BB /* ViewController+MASAdditions.m in Sources */,
+				24A25B9D24A82CAC004DA9BB /* AppDelegate.m in Sources */,
+				24A25BAE24A82CB0004DA9BB /* main.m in Sources */,
+				24A25BA024A82CAC004DA9BB /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24A25BAF24A82CB0004DA9BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A25BB824A82CB0004DA9BB /* CEPrintChineseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24A25BBA24A82CB0004DA9BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A25BC324A82CB0004DA9BB /* CEPrintChineseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24A25BB524A82CB0004DA9BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24A25B9724A82CAC004DA9BB /* CEPrintChinese */;
+			targetProxy = 24A25BB424A82CB0004DA9BB /* PBXContainerItemProxy */;
+		};
+		24A25BC024A82CB0004DA9BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24A25B9724A82CAC004DA9BB /* CEPrintChinese */;
+			targetProxy = 24A25BBF24A82CB0004DA9BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24A25BA424A82CAC004DA9BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24A25BA524A82CAC004DA9BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24A25BA924A82CB0004DA9BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24A25BAA24A82CB0004DA9BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24A25BC524A82CB0004DA9BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24A25BC624A82CB0004DA9BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24A25BC824A82CB0004DA9BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HMCNUMML9Z;
+				INFOPLIST_FILE = CEPrintChinese/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.any.where.CEPrintChineseDQLP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24A25BC924A82CB0004DA9BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HMCNUMML9Z;
+				INFOPLIST_FILE = CEPrintChinese/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.any.where.CEPrintChineseDQLP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24A25BCB24A82CB0004DA9BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CEPrintChineseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.any.where.CEPrintChineseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CEPrintChinese.app/CEPrintChinese";
+			};
+			name = Debug;
+		};
+		24A25BCC24A82CB0004DA9BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CEPrintChineseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.any.where.CEPrintChineseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CEPrintChinese.app/CEPrintChinese";
+			};
+			name = Release;
+		};
+		24A25BCE24A82CB0004DA9BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CEPrintChineseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.any.where.CEPrintChineseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CEPrintChinese;
+			};
+			name = Debug;
+		};
+		24A25BCF24A82CB0004DA9BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CEPrintChineseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.any.where.CEPrintChineseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CEPrintChinese;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24A25B9324A82CAC004DA9BB /* Build configuration list for PBXProject "CEPrintChinese" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24A25BC524A82CB0004DA9BB /* Debug */,
+				24A25BC624A82CB0004DA9BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24A25BC724A82CB0004DA9BB /* Build configuration list for PBXNativeTarget "CEPrintChinese" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24A25BC824A82CB0004DA9BB /* Debug */,
+				24A25BC924A82CB0004DA9BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24A25BCA24A82CB0004DA9BB /* Build configuration list for PBXNativeTarget "CEPrintChineseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24A25BCB24A82CB0004DA9BB /* Debug */,
+				24A25BCC24A82CB0004DA9BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24A25BCD24A82CB0004DA9BB /* Build configuration list for PBXNativeTarget "CEPrintChineseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24A25BCE24A82CB0004DA9BB /* Debug */,
+				24A25BCF24A82CB0004DA9BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24A25B9024A82CAC004DA9BB /* Project object */;
+}
