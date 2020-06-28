@@ -1,6 +1,6 @@
 //
 //  UIView+CETimeCategory.m
-//  CETimeSelector
+//  CEPrintChinese
 //
 //  Created by zhouzhongliang on 2020/5/22.
 //  Copyright © 2020 zhouzhongliang. All rights reserved.

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2458332024A83633003185BE /* PrintChinese.png in Resources */ = {isa = PBXBuildFile; fileRef = 2458331F24A83633003185BE /* PrintChinese.png */; };
 		24A25B9D24A82CAC004DA9BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A25B9C24A82CAC004DA9BB /* AppDelegate.m */; };
 		24A25BA024A82CAC004DA9BB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A25B9F24A82CAC004DA9BB /* SceneDelegate.m */; };
 		24A25BA324A82CAC004DA9BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A25BA224A82CAC004DA9BB /* ViewController.m */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2458331F24A83633003185BE /* PrintChinese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PrintChinese.png; sourceTree = "<group>"; };
 		24A25B9824A82CAC004DA9BB /* CEPrintChinese.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CEPrintChinese.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24A25B9B24A82CAC004DA9BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24A25B9C24A82CAC004DA9BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 		24A25BD024A82E02004DA9BB /* PrintChinese */ = {
 			isa = PBXGroup;
 			children = (
+				2458331F24A83633003185BE /* PrintChinese.png */,
 				24A25BD224A82E24004DA9BB /* NSArray+CEExtension.h */,
 				24A25BD324A82E24004DA9BB /* NSArray+CEExtension.m */,
 				24A25BD424A82E24004DA9BB /* NSDictionary+CEExtension.h */,
@@ -201,9 +204,9 @@
 		24A25BD724A82E5C004DA9BB /* CETimePickView */ = {
 			isa = PBXGroup;
 			children = (
+				24A25BDA24A82E5C004DA9BB /* CETimePickView.h */,
 				24A25BD824A82E5C004DA9BB /* CETimePickView.m */,
 				24A25BD924A82E5C004DA9BB /* UIView+CETimeCategory.h */,
-				24A25BDA24A82E5C004DA9BB /* CETimePickView.h */,
 				24A25BDB24A82E5C004DA9BB /* UIView+CETimeCategory.m */,
 			);
 			path = CETimePickView;
@@ -347,6 +350,7 @@
 				24A25BAB24A82CB0004DA9BB /* LaunchScreen.storyboard in Resources */,
 				24A25BA824A82CB0004DA9BB /* Assets.xcassets in Resources */,
 				24A25BA624A82CAC004DA9BB /* Main.storyboard in Resources */,
+				2458332024A83633003185BE /* PrintChinese.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
